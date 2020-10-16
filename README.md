@@ -1,14 +1,15 @@
 # luaide-lite
-[![](https://vsmarketplacebadge.apphb.com/version-short/wellshsu.luaide-lite.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=wellshsu.luaide-lite)
-[![](https://vsmarketplacebadge.apphb.com/installs-short/wellshsu.luaide-lite.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=wellshsu.luaide-lite)
-[![](https://vsmarketplacebadge.apphb.com/rating-short/wellshsu.luaide-lite.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=wellshsu.luaide-lite)
-* Author: Wells Hsu
-* Email: wellshsu@outlook.com
-* **QQ群: 952522807 (仅供交流学习，原621598820已失效)**
-* Github: https://github.com/hsu2017/luaide-lite
+[![](https://vsmarketplacebadge.apphb.com/version-short/wellshsu.luaide-lite.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mayishidai.luaide-lite-up)
+[![](https://vsmarketplacebadge.apphb.com/installs-short/wellshsu.luaide-lite.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mayishidai.luaide-lite-up)
+[![](https://vsmarketplacebadge.apphb.com/rating-short/wellshsu.luaide-lite.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mayishidai.luaide-lite-up)
+* Author(Old): Wells Hsu
+* Email(Old): wellshsu@outlook.com
+* Author(New): MaYiShiDai
+* Email(New): 877665041@qq.com
 
 # Features | 功能特性
 * **legacy的解析库不再维护(推介使用emmy), debug和format会继续维护.**
+* **此插件是在wellshsu大神基础上进行的升级.**
 
 ## 【代码编写】
 * **标准格式化: 与 IntelliJ IDEA 平台的 EmmyLua 格式化结果一致, 参考VS的格式化标准, 大文件格式化更快.**
