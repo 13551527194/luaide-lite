@@ -1,9 +1,9 @@
 {
-	"name": "luaide-lite",
-	"displayName": "luaide-lite",
+	"name": "luaide-lite-up",
+	"displayName": "luaide-lite-up",
 	"description": "Lua developement and debug tools.",
 	"license": "MIT",
-	"version": "0.2.4",
+	"version": "0.2.5",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/hsu2017/luaide-lite"
@@ -11,7 +11,7 @@
 	"bugs": {
 		"url": "https://github.com/hsu2017/luaide-lite/issues"
 	},
-	"publisher": "ant",
+	"publisher": "mayishidai",
 	"author1": {
 		"name": "周清",
 		"email": "1620829248@qq.com"
@@ -19,7 +19,7 @@
 	"engines": {
 		"vscode": "^1.27.0"
 	},
-	"icon": "res/logo.png",
+	"icon": "res/logo1.png",
 	"categories": [
 		"Programming Languages",
 		"Debuggers",
