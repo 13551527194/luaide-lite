@@ -129,7 +129,7 @@ export class EmmyMgr {
         const clientOptions: LanguageClientOptions = {
             documentSelector: [{ scheme: "file", language: ExtMgr.LANGUAGE_ID }],
             synchronize: {
-                configurationSection: "luaide-lite",
+                configurationSection: "luaide-lite-up",
                 fileEvents: [
                     vscode.workspace.createFileSystemWatcher("**/*.lua")
                 ]

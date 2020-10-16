@@ -1,6 +1,6 @@
 {
-    "luaide-lite.formatHex": false,
-    "luaide-lite.numberRadix": [
+    "luaide-lite-up.formatHex": false,
+    "luaide-lite-up.numberRadix": [
         10,
         16
     ]

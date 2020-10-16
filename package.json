@@ -6,10 +6,10 @@
 	"version": "0.2.5",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/hsu2017/luaide-lite"
+		"url": "https://github.com/hsu2017/luaide-lite-up"
 	},
 	"bugs": {
-		"url": "https://github.com/hsu2017/luaide-lite/issues"
+		"url": "https://github.com/hsu2017/luaide-lite-up/issues"
 	},
 	"publisher": "mayishidai",
 	"author1": {
@@ -217,7 +217,7 @@
 					".lua"
 				],
 				"aliases": [
-					"luaide-lite"
+					"luaide-lite-up"
 				],
 				"configuration": "./res/languages.json"
 			}
@@ -231,168 +231,168 @@
 		],
 		"commands": [
 			{
-				"command": "luaide-lite.toUpperCase",
+				"command": "luaide-lite-up.toUpperCase",
 				"title": "To UpperCase"
 			},
 			{
-				"command": "luaide-lite.toLowerCase",
+				"command": "luaide-lite-up.toLowerCase",
 				"title": "To LowerCase"
 			},
 			{
-				"command": "luaide-lite.about",
-				"title": "About luaide-lite"
+				"command": "luaide-lite-up.about",
+				"title": "About luaide-lite-up"
 			},
 			{
-				"command": "luaide-lite.formatFiles",
+				"command": "luaide-lite-up.formatFiles",
 				"title": "Lua/Format File(s)"
 			},
 			{
-				"command": "luaide-lite.createTemplate",
+				"command": "luaide-lite-up.createTemplate",
 				"title": "Lua/New Template"
 			},
 			{
-				"command": "luaide-lite.openRes",
+				"command": "luaide-lite-up.openRes",
 				"title": "Lua/Open Res"
 			},
 			{
-				"command": "luaide-lite.convertTsFile",
+				"command": "luaide-lite-up.convertTsFile",
 				"title": "Lua/To Typescript"
 			},
 			{
-				"command": "luaide-lite.convertTsText",
+				"command": "luaide-lite-up.convertTsText",
 				"title": "To Typescript"
 			}
 		],
 		"menus": {
 			"explorer/context": [
 				{
-					"command": "luaide-lite.formatFiles",
-					"group": "luaide-lite"
+					"command": "luaide-lite-up.formatFiles",
+					"group": "luaide-lite-up"
 				},
 				{
-					"command": "luaide-lite.createTemplate",
-					"group": "luaide-lite"
+					"command": "luaide-lite-up.createTemplate",
+					"group": "luaide-lite-up"
 				},
 				{
-					"command": "luaide-lite.openRes",
-					"group": "luaide-lite"
+					"command": "luaide-lite-up.openRes",
+					"group": "luaide-lite-up"
 				}
 			],
 			"editor/context": [
 				{
-					"command": "luaide-lite.toUpperCase",
-					"group": "luaide-lite",
+					"command": "luaide-lite-up.toUpperCase",
+					"group": "luaide-lite-up",
 					"when": "editorHasSelection && editorLangId == lua"
 				},
 				{
-					"command": "luaide-lite.toLowerCase",
-					"group": "luaide-lite",
+					"command": "luaide-lite-up.toLowerCase",
+					"group": "luaide-lite-up",
 					"when": "editorHasSelection && editorLangId == lua"
 				},
 				{
-					"command": "luaide-lite.convertTsText",
-					"group": "luaide-lite",
+					"command": "luaide-lite-up.convertTsText",
+					"group": "luaide-lite-up",
 					"when": "editorHasSelection"
 				}
 			]
 		},
 		"keybindings": [
 			{
-				"command": "luaide-lite.toUpperCase",
+				"command": "luaide-lite-up.toUpperCase",
 				"key": "CTRL+L CTRL+U",
 				"when": "editorHasSelection && editorLangId == lua"
 			},
 			{
-				"command": "luaide-lite.toLowerCase",
+				"command": "luaide-lite-up.toLowerCase",
 				"key": "CTRL+L CTRL+L",
 				"when": "editorHasSelection && editorLangId == lua"
 			},
 			{
-				"command": "luaide-lite.convertTsText",
+				"command": "luaide-lite-up.convertTsText",
 				"key": "CTRL+K CTRL+V",
 				"when": "editorHasSelection"
 			}
 		],
 		"configuration": {
 			"type": "object",
-			"title": "luaide-lite",
+			"title": "luaide-lite-up",
 			"properties": {
-				"luaide-lite.core": {
+				"luaide-lite-up.core": {
 					"type": "string",
 					"default": "emmy",
 					"description": "emmy-'emmylua core',legacy-'old core'.\n设置代码解析库,emmy-'emmylua版本',legacy-'旧版本'."
 				},
-				"luaide-lite.javahome": {
+				"luaide-lite-up.javahome": {
 					"type": "string",
 					"default": null,
 					"description": "JAVA HOME.\nJava环境根目录."
 				},
-				"luaide-lite.enableHighlight": {
+				"luaide-lite-up.enableHighlight": {
 					"type": "boolean",
 					"default": true,
 					"description": "Highlight global var.\n全局变量高亮显示."
 				},
-				"luaide-lite.highlightNormal": {
+				"luaide-lite-up.highlightNormal": {
 					"type": "string",
 					"default": "#2B91AF",
 					"description": "Light theme highlight color.\n白色系主题高亮的颜色."
 				},
-				"luaide-lite.highlightDark": {
+				"luaide-lite-up.highlightDark": {
 					"type": "string",
 					"default": "#00D6AA",
 					"description": "Dark theme highlight color.\n黑色系主题高亮的颜色."
 				},
-				"luaide-lite.theme.light.parameter": {
+				"luaide-lite-up.theme.light.parameter": {
 					"type": "string",
 					"default": "#565656",
 					"description": "Light theme parameter color.\n白色系主题参数颜色."
 				},
-				"luaide-lite.theme.light.global": {
+				"luaide-lite-up.theme.light.global": {
 					"type": "string",
 					"default": "#2B91AF",
 					"description": "Light theme global color.\n白色系主题全局变量颜色."
 				},
-				"luaide-lite.theme.light.annotation": {
+				"luaide-lite-up.theme.light.annotation": {
 					"type": "string",
 					"default": "#2B91AF",
 					"description": "Light theme annotation color.\n白色系主题注解颜色."
 				},
-				"luaide-lite.theme.dark.parameter": {
+				"luaide-lite-up.theme.dark.parameter": {
 					"type": "string",
 					"default": "#FFFFFF",
 					"description": "Dark theme parameter color.\n黑色系主题参数颜色."
 				},
-				"luaide-lite.theme.dark.global": {
+				"luaide-lite-up.theme.dark.global": {
 					"type": "string",
 					"default": "#00D6AA",
 					"description": "Dark theme parameter color.\n黑色系主题参数颜色."
 				},
-				"luaide-lite.theme.dark.annotation": {
+				"luaide-lite-up.theme.dark.annotation": {
 					"type": "string",
 					"default": "#00D6AA",
 					"description": "Dark theme annotation color.\n黑色系主题注解颜色."
 				},
-				"luaide-lite.enableFormat": {
+				"luaide-lite-up.enableFormat": {
 					"type": "boolean",
 					"default": true,
 					"description": "Enable internal format tool.\n是否使用格式化."
 				},
-				"luaide-lite.luaOperatorCheck": {
+				"luaide-lite-up.luaOperatorCheck": {
 					"type": "boolean",
 					"default": true,
 					"description": "Set false if you override operator in your code.\n是否解析符号重载."
 				},
-				"luaide-lite.luaFunArgCheck": {
+				"luaide-lite-up.luaFunArgCheck": {
 					"type": "boolean",
 					"default": true,
 					"description": "Check function args, 'set true' doesn't allow same arg identifier.\n是否解析函数的参数."
 				},
-				"luaide-lite.moduleFunNestingCheck": {
+				"luaide-lite-up.moduleFunNestingCheck": {
 					"type": "boolean",
 					"default": false,
 					"description": "Check module function nesting.\n模块方法嵌套检查, 如果在一个方法中出现另外一个模块方法会认为是错误的."
 				},
-				"luaide-lite.templateDefine": {
+				"luaide-lite-up.templateDefine": {
 					"type": "array",
 					"default": [],
 					"description": "Replace specific var in template file.\n模板值定义, 用于创建模板文件时全局替换.",
@@ -400,12 +400,12 @@
 						"type": "object"
 					}
 				},
-				"luaide-lite.templateDir": {
+				"luaide-lite-up.templateDir": {
 					"type": "string",
 					"default": "",
 					"description": "Template file directory, support recursive.\n模板文件目录."
 				},
-				"luaide-lite.exclude": {
+				"luaide-lite-up.exclude": {
 					"type": "array",
 					"default": [],
 					"description": "Exclude specific file(s) or folder(s).\n需要排除的文件夹, 这些文件夹将不会被解析.",
@@ -413,7 +413,7 @@
 						"type": "string"
 					}
 				},
-				"luaide-lite.apiFolders": {
+				"luaide-lite-up.apiFolders": {
 					"type": "array",
 					"default": [],
 					"description": "API define's directory(relative/absolute).\nAPI提示文件路径(相对/绝对).",
@@ -421,24 +421,24 @@
 						"type": "string"
 					}
 				},
-				"luaide-lite.formatHex": {
+				"luaide-lite-up.formatHex": {
 					"type": "boolean",
 					"default": true,
 					"description": "Convert hex to decimal.\n是否格式化十六进制的数字."
 				},
-				"luaide-lite.numberRadix": {
+				"luaide-lite-up.numberRadix": {
 					"type": "array",
 					"default": [
 						10
 					],
 					"description": "Display number radix when debug number value.\n调试时需要显示的数字进制格式, 例如二进制, 十进制等."
 				},
-				"luaide-lite.enableDiagnostic": {
+				"luaide-lite-up.enableDiagnostic": {
 					"type": "boolean",
 					"default": true,
 					"description": "Enable code diagnostic.\n是否启用代码分析, 如果禁用将不会有错误提示."
 				},
-				"luaide-lite.typescriptDefine": {
+				"luaide-lite-up.typescriptDefine": {
 					"type": "array",
 					"default": [],
 					"description": "Replace specific var in typescript content.\n转换为Typescript时的模板值定义, 用于全局替换转化内容.",
@@ -446,17 +446,17 @@
 						"type": "object"
 					}
 				},
-				"luaide-lite.debugLanguageServer": {
+				"luaide-lite-up.debugLanguageServer": {
 					"type": "boolean",
 					"default": false,
 					"description": "Debug language server(For developer).\n是否调试LSP(面向开发者)."
 				},
-				"luaide-lite.showWeather": {
+				"luaide-lite-up.showWeather": {
 					"type": "boolean",
 					"default": false,
 					"description": "If show today's weather?.\n是否显示天气, 默认关闭."
 				},
-				"luaide-lite.formatUseTab": {
+				"luaide-lite-up.formatUseTab": {
 					"type": "boolean",
 					"default": false,
 					"description": "If format document by indenting tab?.\n是否使用tab来缩进代码, 默认关闭."

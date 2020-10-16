@@ -238,8 +238,8 @@ export class LuaDebug extends DebugSession {
 								variablesReference: element.variablesReference
 							}
 							if (newVariable.type == "number") {
-								if (that.exConfig && that.exConfig["luaide-lite.numberRadix"]) {
-									let radixes = that.exConfig["luaide-lite.numberRadix"]
+								if (that.exConfig && that.exConfig["luaide-lite-up.numberRadix"]) {
+									let radixes = that.exConfig["luaide-lite-up.numberRadix"]
 									if (radixes && radixes.length > 0) {
 										let newValue = ""
 										for (let i = 0; i < radixes.length; i++) {
@@ -355,8 +355,8 @@ export class LuaDebug extends DebugSession {
 			return
 		}
 		if (parseInt(expression)) {
-			if (luadebug.exConfig && luadebug.exConfig["luaide-lite.numberRadix"]) {
-				let radixes = luadebug.exConfig["luaide-lite.numberRadix"]
+			if (luadebug.exConfig && luadebug.exConfig["luaide-lite-up.numberRadix"]) {
+				let radixes = luadebug.exConfig["luaide-lite-up.numberRadix"]
 				if (radixes && radixes.length > 0) {
 					let newValue = ""
 					for (let i = 0; i < radixes.length; i++) {

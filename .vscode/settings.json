@@ -7,8 +7,8 @@
     "search.exclude": {
         "out": true // set this to false to include "out" folder in search results
     },
-    "luaide-lite.luaOperatorCheck": false,
-    "luaide-lite.exclude": [
+    "luaide-lite-up.luaOperatorCheck": false,
+    "luaide-lite-up.exclude": [
         "res/template",
         "test/xlua"
     ]
