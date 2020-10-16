@@ -1,9 +1,0 @@
-set-ExecutionPolicy RemoteSigned
-npm install
-vsce publish  发布
-vsce package  编译
-
-git
- git add .
- git commit -m "描述" 
- git push

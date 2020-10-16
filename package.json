@@ -3,7 +3,7 @@
 	"displayName": "luaide-lite-up",
 	"description": "Lua developement and debug tools.",
 	"license": "MIT",
-	"version": "0.2.5",
+	"version": "0.2.6",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/hsu2017/luaide-lite-up"
@@ -13,7 +13,7 @@
 	},
 	"publisher": "mayishidai",
 	"author1": {
-		"name": "周清",
+		"name": "mayishidai",
 		"email": "1620829248@qq.com"
 	},
 	"engines": {
