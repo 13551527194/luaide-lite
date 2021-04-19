@@ -1,7 +1,7 @@
 # luaide-lite
-[![](https://vsmarketplacebadge.apphb.com/version-short/mayishidai.luaide-lite.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mayishidai.luaide-lite-up)
-[![](https://vsmarketplacebadge.apphb.com/installs-short/mayishidai.luaide-lite.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mayishidai.luaide-lite-up)
-[![](https://vsmarketplacebadge.apphb.com/rating-short/mayishidai.luaide-lite.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mayishidai.luaide-lite-up)
+[![](https://vsmarketplacebadge.apphb.com/version-short/mayishidai.luaide-lite-up.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mayishidai.luaide-lite-up)
+[![](https://vsmarketplacebadge.apphb.com/installs-short/mayishidai.luaide-lite-up.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mayishidai.luaide-lite-up)
+[![](https://vsmarketplacebadge.apphb.com/rating-short/mayishidai.luaide-lite-up.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mayishidai.luaide-lite-up)
 * Author(Old): Wells Hsu
 * Email(Old): wellshsu@outlook.com
 * Author(New): MaYiShiDai
