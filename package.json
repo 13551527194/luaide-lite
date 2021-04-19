@@ -6,10 +6,10 @@
 	"version": "0.2.8",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/hsu2017/luaide-lite-up"
+		"url": "https://github.com/hsu2017/luaide-lite"
 	},
 	"bugs": {
-		"url": "https://github.com/hsu2017/luaide-lite-up/issues"
+		"url": "https://github.com/hsu2017/luaide-lite/issues"
 	},
 	"publisher": "mayishidai",
 	"author1": {
