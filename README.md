@@ -10,6 +10,7 @@
 # Features | 功能特性
 * **legacy的解析库不再维护(推介使用emmy), debug和format会继续维护.**
 * **此插件是在wellshsu大神基础上进行的升级.**
+* **如果项目文件太多，引入文件被卡住，请将代码中的代码解析库改为 legacy .**
 
 ## 【代码编写】
 * **标准格式化: 与 IntelliJ IDEA 平台的 EmmyLua 格式化结果一致, 参考VS的格式化标准, 大文件格式化更快.**
@@ -70,6 +71,9 @@
 * Conditional breakpoint: [Stable] support expression and hit count.
 
 # [See Changelog] | 详细请查阅版本记录
+## 0.2.8 [2021.04.19] 
+* 修改代码解析库默认使用legacy，防止超多Lua文件情况下，引起的加载失败（停留在14%）
+
 ## 0.2.4 [2020.07.22] 
 * 修复 kill("SIGUP") 导致的异常.
 * Fix kill("SIGUP") exception.

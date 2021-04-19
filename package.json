@@ -3,7 +3,7 @@
 	"displayName": "luaide-lite-up",
 	"description": "Lua developement and debug tools.",
 	"license": "MIT",
-	"version": "0.2.7",
+	"version": "0.2.8",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/hsu2017/luaide-lite-up"
@@ -319,7 +319,7 @@
 			"properties": {
 				"luaide-lite-up.core": {
 					"type": "string",
-					"default": "emmy",
+					"default": "legacy",
 					"description": "emmy-'emmylua core',legacy-'old core'.\n设置代码解析库,emmy-'emmylua版本',legacy-'旧版本'."
 				},
 				"luaide-lite-up.javahome": {
